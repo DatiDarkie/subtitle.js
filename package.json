@@ -1,0 +1,24 @@
+{
+  "name": "subtitle.js",
+  "version": "1.0.0",
+  "description": "This library helps you deal with subtitle files in terms of editing and parsing, with easy and fast tools.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "srt",
+    "ssa",
+    "ass",
+    "subtitle",
+    "aegisub"
+  ],
+  "author": "YousefHusain",
+  "license": "MIT",
+  "dependencies": {
+    "subtitles-parser": "^0.0.2",
+    "subtitles-ssa": "^1.0.0"
+  }
+}
